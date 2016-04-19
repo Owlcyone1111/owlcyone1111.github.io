@@ -1,0 +1,39 @@
+body {
+	font-family: Montserrat, sans-serif;
+	font-size: 1em;
+	text-align: center;
+}
+
+a {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+#nav li {
+	display: inline;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	background-color: #cc0323;
+	color: #ffffff;
+	padding: 5px;
+}
+
+#nav a {
+	color: #ffffff;
+}
+
+#header {
+
+}
+
+#content {
+
+}
+
+#footer {
+
+}
