@@ -26,8 +26,13 @@ a:hover {
 	color: #ffffff;
 }
 
-#header {
+#container {
+	width: 80%;
+	margin: auto;
+}
 
+#header {
+	margin: 10px;
 }
 
 #content {
