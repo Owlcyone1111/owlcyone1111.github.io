@@ -1,0 +1,79 @@
+Microsoft Windows [Version 10.0.10586]
+(c) 2015 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>sublime
+'sublime' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\WINDOWS\system32>sublime_text
+
+C:\WINDOWS\system32>sublime
+'sublime' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\WINDOWS\system32>c:\users\samowl\documents\projects
+'c:\users\samowl\documents\projects' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\WINDOWS\system32>cd c:\users\samowl\documents\projects
+
+c:\Users\Samowl\Documents\Projects>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 4861-5118
+
+ Directory of c:\Users\Samowl\Documents\Projects
+
+06/28/2016  05:12 PM    <DIR>          .
+06/28/2016  05:12 PM    <DIR>          ..
+06/28/2016  01:33 PM    <DIR>          Dreamvision
+06/28/2016  05:18 PM    <DIR>          express-basics
+               0 File(s)              0 bytes
+               4 Dir(s)  188,619,542,528 bytes free
+
+c:\Users\Samowl\Documents\Projects>cd express-basics
+
+c:\Users\Samowl\Documents\Projects\express-basics>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 4861-5118
+
+ Directory of c:\Users\Samowl\Documents\Projects\express-basics
+
+06/28/2016  05:18 PM    <DIR>          .
+06/28/2016  05:18 PM    <DIR>          ..
+06/28/2016  05:18 PM    <DIR>          node_modules
+06/28/2016  05:18 PM               627 package.json
+06/28/2016  05:12 PM             1,412 README.md
+               2 File(s)          2,039 bytes
+               3 Dir(s)  188,619,542,528 bytes free
+
+c:\Users\Samowl\Documents\Projects\express-basics>sublime package.json
+'sublime' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\Users\Samowl\Documents\Projects\express-basics>sublime_text package.json
+
+c:\Users\Samowl\Documents\Projects\express-basics>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        node_modules/
+        package.json
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+c:\Users\Samowl\Documents\Projects\express-basics>sublime_text .gitignore
+
+c:\Users\Samowl\Documents\Projects\express-basics>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        package.json
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+c:\Users\Samowl\Documents\Projects\express-basics>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p id="please_enable">Please Enable JavaScript</p>
+
+    <script>
+      var body = document.body;
+      var newParagraph = document.createElement("p");
+      var pleaseEnableParagraph = document.querySelector("#please_enable");
+
+      // Add text to the new paragraph
+      newParagraph.innerText = "JavaScript is enabled";
+
+      //Remove "Please Enable JavaScript" paragraph
+      body.removeChild(pleaseEnableParagraph);
+
+      //Append new paragaph to document
+      body.appendChild(newParagraph);
+
+      // = = = = = = = = = =
+
+      var anchor = document.querySelector("a");
+      //Add the class to the classList "selected"
+      anchor.classList.toggle("selected");
+
+      // = = = = = = = = = =
+
+      //Select select box
+      var navigationSelect = document.getElementById("nav");
+
+      //Navigate to URL when select box is changed
+      var navigateToValue = function() {
+        window.location = this.value;
+      }
+
+      //Send analytics data
+      var sendAnalytics = function() {
+        //Placeholder
+      }
+
+      //navigationSelect.onchange = navigateToValue;
+      //navigationSelect.onchange = sendAnalytics;
+
+      navigationSelect.addEventListener("change", navigateToValue);
+      navigationSelect.addEventListener("change", sendAnalytics);
+    </script>
+  </body>
+</html>

@@ -13,6 +13,12 @@ a:hover {
 	font-weight: bold;
 }
 
+/* for projects list */
+ul {
+	padding: 0;
+	list-style: none;
+}
+
 #nav li {
 	display: inline;
 	border: 2px solid #000000;
