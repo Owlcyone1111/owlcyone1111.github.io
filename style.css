@@ -15,7 +15,7 @@ a:hover {
 
 /* for projects list */
 ul {
-	padding: 0;
+	display: inline;
 	list-style: none;
 }
 

@@ -4,3 +4,7 @@
 4. Mobile Drop Down Menu
 5. Password Confirmation Form
 6. Simple Drawing Application
+
+Plugins:
+7. Animsition (sticky nav bar)
+8. Slick (carousel)
