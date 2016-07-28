@@ -18,6 +18,11 @@ a:hover {
 ul {
 	display: inline;
 	list-style: none;
+}
+
+#nav ul {
+	display: inline;
+	list-style: none;
 	padding: 0;
 }
 
