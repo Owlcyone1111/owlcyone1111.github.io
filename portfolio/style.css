@@ -14,10 +14,14 @@ a:hover {
 	font-weight: bold;
 }
 
-/* for projects list */
+/* projects list */
 ul {
 	display: inline;
 	list-style: none;
+}
+
+p {
+	text-align: justify;
 }
 
 #nav ul {
@@ -49,7 +53,8 @@ ul {
 }
 
 #content {
-
+	width: 80%;
+	margin: auto;
 }
 
 #footer {
