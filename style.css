@@ -1,50 +1,42 @@
 body {
-	font-family: Montserrat, sans-serif;
-	font-size: 1em;
-	text-align: center;
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    background-color: #272822;
+    color: #f8f8f0;
+    font-size: 18px;
+    margin: 0
+}
+
+pre {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    overflow: auto;
+    margin: 1rem 0
 }
 
 a {
-    color: #cc0000;
-    text-decoration: none;
+    color: #66d9ef;
+    text-decoration: none
 }
 
 a:hover {
-	font-weight: bold;
+    color: #f92672
 }
 
-/* for projects list */
-ul {
-	display: inline;
-	list-style: none;
+.wrap {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center
 }
 
-#nav li {
-	display: inline;
-	border: 2px solid #000000;
-	border-radius: 10px;
-	background-color: #cc0323;
-	color: #ffffff;
-	padding: 5px;
+.wrap pre {
+    display: inline-block;
+    text-align: left;
+    line-height: 2rem;
+    overflow: auto
 }
 
-#nav a {
-	color: #ffffff;
-}
-
-#container {
-	width: 80%;
-	margin: auto;
-}
-
-#header {
-	margin: 10px;
-}
-
-#content {
-
-}
-
-#footer {
-
+.hl.string {
+    color: #e6db74
 }

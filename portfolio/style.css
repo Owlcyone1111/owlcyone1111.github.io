@@ -1,0 +1,53 @@
+body {
+
+	font-family: Montserrat, sans-serif;
+	font-size: 1em;
+	text-align: center;
+}
+
+a {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+/* for projects list */
+ul {
+	display: inline;
+	list-style: none;
+	border: 2px solid;
+	padding: 0;
+}
+
+#nav li {
+	display: inline;
+	border: 1px solid #000000;
+	background-color: #cc0323;
+	color: #ffffff;
+	padding: 5px;
+	margin: 0 auto;
+}
+
+#nav a {
+	color: #ffffff;
+}
+
+#container {
+	width: 80%;
+	margin: auto;
+}
+
+#header {
+	margin: 10px;
+}
+
+#content {
+
+}
+
+#footer {
+
+}
